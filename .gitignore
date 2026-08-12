@@ -1,0 +1,14 @@
+# Ignore local env and pycache
+*.pyc
+__pycache__/
+.env
+.venv/
+
+# Terraform state
+*.tfstate
+*.tfstate.backup
+.terraform/
+
+# Editor/runtime
+.vscode/
+.idea/
